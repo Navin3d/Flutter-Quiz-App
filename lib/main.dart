@@ -3,7 +3,9 @@ import 'package:provider/provider.dart';
 import 'package:provider_sample/pages/Home.dart';
 import 'package:provider_sample/model/Result.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(
+      MyApp(),
+    );
 
 class MyApp extends StatelessWidget {
   @override
